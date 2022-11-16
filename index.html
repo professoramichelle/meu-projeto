@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Meus projetos</title>
+        <link rel = "stylesheet" href="style.css"> 
+        <!-- C62 - Inclusão de 3 links para utilização do bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+
+    <!-- C62 - Inclusão do Divisor com classe Container -->    
+    <div class="container">   
+
+        <section id="apps">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/SZF7Ium2wwrnf0bMOzv1Uy8tAAh7cN6iHp1SkqiCvAO/embed?nosource"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/XWQlrjL2-Mum72oERJP2nkLpBO3BBfRlWOR_9IVpmxR/embed?nosource"></iframe>
+        </section>
+
+        <!-- C62 - Inclusão dos enunciados-->
+        <h2>Clique no jogo desejado para começar </h2>
+        <h5>Estes jogos foram criados no laboratório de jogos. Clique no jogo para jogar. </h5>
+
+        <!-- C62 - Envolver toda a seção JOGOS dentro deste carrossel-->
+        <div id="meuCarrossel" class="carousel slide" data-ride="carousel"> 
+            <center>
+            <!-- C62 - Envolver todos os itens de jogos dentre desta divisão carousel-inner -->
+            <div class="carousel-inner"> 
+                <!-- C62 - Envolver o primeiro item nesta divisão item active, pois será o primeiro a aparecer na tela -->
+                <div class ="item active"> 
+                    <a href="https://studio.code.org/projects/gamelab/je1EmyzM_ZRV_AORR59vLtTu1RFsz_kIfI-tZpNOj78" target="_blank">
+                        <img src="thumbnail.png">
+                    </a>
+                    <p> Jogo de carro infinito </p>
+                </div>
+                <!-- C62 - Envolver os demais itens nesta divisão item-->
+                <div class = "item">
+                    <a href="https://studio.code.org/projects/gamelab/F-n1QZCz8h7u5V1ED9Kbj76oSSRrNOv1p1bWYK2YXCA" target="_blank">
+                        <img src="thumbnail2.png">
+                    </a>
+                    <p> Jogo dos astronautas</p>
+                </div>
+            </div>
+
+            <!-- C62 - Botão da esquerda para o carrossel -->
+            <a class="left carousel-control" href="#meuCarrossel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+             <!-- C62 - Botão da direita para o carrossel -->
+            <a class="right carousel-control" href="#meuCarrossel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            </center>
+          
+        </div>
+    </div>    
+    </body>
+</html>
